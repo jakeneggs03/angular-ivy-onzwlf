@@ -12,7 +12,7 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 export class AppComponent  {
   name = 'NetNeutralityBrewing ' + VERSION.major;
   
-  images = [700, 800, 807].map((n) => `https://myalbum.com/album/jRrsW4gp8BQpAN`);
+  images = [700, 800, 807].map((n) => `Image.png`);
 
   constructor(config: NgbCarouselConfig) {
     // customize default values of carousels used by this component tree
